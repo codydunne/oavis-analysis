@@ -1,0 +1,1147 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0915.0348                               -->
+<workbook original-version='18.1' source-build='2021.4.11 (20214.22.0915.0348)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='openaccessvis-all-processed' inline='true' name='federated.0qp22so1gmflfe10r6hei1lxv6hc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='openaccessvis-all-processed' name='textscan.1f0nzdv1e2b9cr17coeri0z98dma'>
+            <connection class='textscan' directory='C:/fs/service/organizing/2022 VIS open practices/open-access-vis' filename='openaccessvis-all-processed.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1f0nzdv1e2b9cr17coeri0z98dma' name='openaccessvis-all-processed.csv' table='[openaccessvis-all-processed#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Source.Name' ordinal='1' />
+            <column datatype='string' name='ReviewVenue' ordinal='2' />
+            <column datatype='string' name='PublicationVenue' ordinal='3' />
+            <column datatype='string' name='Title' ordinal='4' />
+            <column datatype='string' name='delete' ordinal='5' />
+            <column datatype='string' name='Authors' ordinal='6' />
+            <column datatype='string' name='AuthorPDF' ordinal='7' />
+            <column datatype='string' name='Abstract' ordinal='8' />
+            <column datatype='string' name='ExplanationPage' ordinal='9' />
+            <column datatype='string' name='SourceMaterials' ordinal='10' />
+            <column datatype='string' name='Data' ordinal='11' />
+            <column datatype='string' name='Preregistered' ordinal='12' />
+            <column datatype='string' name='Video' ordinal='13' />
+            <column datatype='string' name='DOI' ordinal='14' />
+            <column datatype='string' name='PublicationYear' ordinal='15' />
+            <column datatype='integer' name='ConferenceYear' ordinal='16' />
+            <column datatype='string' name='ConferenceTrack' ordinal='17' />
+            <column datatype='string' name='ConferenceRoom' ordinal='18' />
+            <column datatype='string' name='ConferenceDay' ordinal='19' />
+            <column datatype='string' name='ConferenceSession' ordinal='20' />
+            <column datatype='string' name='date' ordinal='21' />
+            <column datatype='string' name='ConferenceTimeStart' ordinal='22' />
+            <column datatype='string' name='ConferenceTimeEnd' ordinal='23' />
+            <column datatype='boolean' name='isClosedAccess' ordinal='24' />
+            <column datatype='boolean' name='isFullyOpen' ordinal='25' />
+            <column datatype='string' name='openCategory' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1f0nzdv1e2b9cr17coeri0z98dma' name='openaccessvis-all-processed.csv' table='[openaccessvis-all-processed#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Source.Name' ordinal='1' />
+            <column datatype='string' name='ReviewVenue' ordinal='2' />
+            <column datatype='string' name='PublicationVenue' ordinal='3' />
+            <column datatype='string' name='Title' ordinal='4' />
+            <column datatype='string' name='delete' ordinal='5' />
+            <column datatype='string' name='Authors' ordinal='6' />
+            <column datatype='string' name='AuthorPDF' ordinal='7' />
+            <column datatype='string' name='Abstract' ordinal='8' />
+            <column datatype='string' name='ExplanationPage' ordinal='9' />
+            <column datatype='string' name='SourceMaterials' ordinal='10' />
+            <column datatype='string' name='Data' ordinal='11' />
+            <column datatype='string' name='Preregistered' ordinal='12' />
+            <column datatype='string' name='Video' ordinal='13' />
+            <column datatype='string' name='DOI' ordinal='14' />
+            <column datatype='string' name='PublicationYear' ordinal='15' />
+            <column datatype='integer' name='ConferenceYear' ordinal='16' />
+            <column datatype='string' name='ConferenceTrack' ordinal='17' />
+            <column datatype='string' name='ConferenceRoom' ordinal='18' />
+            <column datatype='string' name='ConferenceDay' ordinal='19' />
+            <column datatype='string' name='ConferenceSession' ordinal='20' />
+            <column datatype='string' name='date' ordinal='21' />
+            <column datatype='string' name='ConferenceTimeStart' ordinal='22' />
+            <column datatype='string' name='ConferenceTimeEnd' ordinal='23' />
+            <column datatype='boolean' name='isClosedAccess' ordinal='24' />
+            <column datatype='boolean' name='isFullyOpen' ordinal='25' />
+            <column datatype='string' name='openCategory' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source.Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source.Name]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>Source.Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReviewVenue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ReviewVenue]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ReviewVenue</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PublicationVenue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PublicationVenue]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>PublicationVenue</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>delete</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[delete]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>delete</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Authors</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Authors]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>Authors</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AuthorPDF</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AuthorPDF]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>AuthorPDF</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abstract</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Abstract]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>Abstract</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ExplanationPage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ExplanationPage]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ExplanationPage</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SourceMaterials</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SourceMaterials]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>SourceMaterials</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>Data</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Preregistered</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Preregistered]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>Preregistered</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Video</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Video]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>Video</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DOI]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>DOI</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PublicationYear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PublicationYear]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>PublicationYear</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConferenceYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ConferenceYear]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ConferenceYear</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConferenceTrack</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ConferenceTrack]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ConferenceTrack</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConferenceRoom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ConferenceRoom]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ConferenceRoom</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConferenceDay</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ConferenceDay]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ConferenceDay</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConferenceSession</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ConferenceSession]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ConferenceSession</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConferenceTimeStart</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ConferenceTimeStart]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ConferenceTimeStart</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConferenceTimeEnd</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ConferenceTimeEnd]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>ConferenceTimeEnd</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isClosedAccess</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isClosedAccess]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>isClosedAccess</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isFullyOpen</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isFullyOpen]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>isFullyOpen</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>openCategory</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[openCategory]</local-name>
+            <parent-name>[openaccessvis-all-processed.csv]</parent-name>
+            <remote-alias>openCategory</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Author PDF' datatype='string' name='[AuthorPDF]' role='dimension' type='nominal' />
+      <column caption='Conference Day' datatype='string' name='[ConferenceDay]' role='dimension' type='nominal' />
+      <column caption='Conference Room' datatype='string' name='[ConferenceRoom]' role='dimension' type='nominal' />
+      <column caption='Conference Session' datatype='string' name='[ConferenceSession]' role='dimension' type='nominal' />
+      <column caption='Conference Time End' datatype='string' name='[ConferenceTimeEnd]' role='dimension' type='nominal' />
+      <column caption='Conference Time Start' datatype='string' name='[ConferenceTimeStart]' role='dimension' type='nominal' />
+      <column caption='Conference Track' datatype='string' name='[ConferenceTrack]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Year' datatype='integer' name='[ConferenceYear]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Data]' role='dimension' type='nominal' />
+      <column caption='Explanation Page' datatype='string' name='[ExplanationPage]' role='dimension' type='nominal' />
+      <column caption='Publication Venue' datatype='string' name='[PublicationVenue]' role='dimension' type='nominal' />
+      <column caption='Publication Year' datatype='string' name='[PublicationYear]' role='dimension' type='nominal' />
+      <column caption='Review Venue' datatype='string' name='[ReviewVenue]' role='dimension' type='nominal' />
+      <column caption='Source Materials' datatype='string' name='[SourceMaterials]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='openaccessvis-all-processed.csv' datatype='table' name='[__tableau_internal_object_id__].[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='string' name='[date]' role='dimension' type='nominal' />
+      <column caption='Delete' datatype='string' name='[delete]' role='dimension' type='nominal' />
+      <column caption='Is Closed Access' datatype='boolean' name='[isClosedAccess]' role='dimension' type='nominal' />
+      <column caption='Is Fully Open' datatype='boolean' name='[isFullyOpen]' role='dimension' type='nominal' />
+      <column caption='Open Category' datatype='string' name='[openCategory]' role='dimension' type='nominal' />
+      <column-instance column='[ConferenceYear]' derivation='None' name='[none:ConferenceYear:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Data]' derivation='None' name='[none:Data:nk]' pivot='key' type='nominal' />
+      <column-instance column='[openCategory]' derivation='None' name='[none:openCategory:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Conference Year,Data)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:ConferenceYear:ok]' />
+          <groupfilter function='level-members' level='[none:Data:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Data:nk]' type='palette'>
+            <map to='#005500'>
+              <bucket>&quot;Reliable Open Access     &quot;</bucket>
+            </map>
+            <map to='#67844e'>
+              <bucket>&quot;Open     &quot;</bucket>
+            </map>
+            <map to='#dfabac'>
+              <bucket>&quot;Hidden or Not Applicable&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:openCategory:nk]' type='palette'>
+            <map to='#005500'>
+              <bucket>&quot;Reliable Open Access     &quot;</bucket>
+            </map>
+            <map to='#67844e'>
+              <bucket>&quot;Open     &quot;</bucket>
+            </map>
+            <map to='#dfabac'>
+              <bucket>&quot;Hidden     &quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='openaccessvis-all-processed.csv' id='openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067'>
+            <properties context=''>
+              <relation connection='textscan.1f0nzdv1e2b9cr17coeri0z98dma' name='openaccessvis-all-processed.csv' table='[openaccessvis-all-processed#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Source.Name' ordinal='1' />
+                  <column datatype='string' name='ReviewVenue' ordinal='2' />
+                  <column datatype='string' name='PublicationVenue' ordinal='3' />
+                  <column datatype='string' name='Title' ordinal='4' />
+                  <column datatype='string' name='delete' ordinal='5' />
+                  <column datatype='string' name='Authors' ordinal='6' />
+                  <column datatype='string' name='AuthorPDF' ordinal='7' />
+                  <column datatype='string' name='Abstract' ordinal='8' />
+                  <column datatype='string' name='ExplanationPage' ordinal='9' />
+                  <column datatype='string' name='SourceMaterials' ordinal='10' />
+                  <column datatype='string' name='Data' ordinal='11' />
+                  <column datatype='string' name='Preregistered' ordinal='12' />
+                  <column datatype='string' name='Video' ordinal='13' />
+                  <column datatype='string' name='DOI' ordinal='14' />
+                  <column datatype='string' name='PublicationYear' ordinal='15' />
+                  <column datatype='integer' name='ConferenceYear' ordinal='16' />
+                  <column datatype='string' name='ConferenceTrack' ordinal='17' />
+                  <column datatype='string' name='ConferenceRoom' ordinal='18' />
+                  <column datatype='string' name='ConferenceDay' ordinal='19' />
+                  <column datatype='string' name='ConferenceSession' ordinal='20' />
+                  <column datatype='string' name='date' ordinal='21' />
+                  <column datatype='string' name='ConferenceTimeStart' ordinal='22' />
+                  <column datatype='string' name='ConferenceTimeEnd' ordinal='23' />
+                  <column datatype='boolean' name='isClosedAccess' ordinal='24' />
+                  <column datatype='boolean' name='isFullyOpen' ordinal='25' />
+                  <column datatype='string' name='openCategory' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_72C941176CC64BA8B06211BEF2B031FA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Data' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Availability of data'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='openaccessvis-all-processed' name='federated.0qp22so1gmflfe10r6hei1lxv6hc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qp22so1gmflfe10r6hei1lxv6hc'>
+            <column aggregation='Sum' caption='Year' datatype='integer' name='[ConferenceYear]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Data]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='openaccessvis-all-processed.csv' datatype='integer' name='[__tableau_internal_object_id__].[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='openaccessvis-all-processed.csv' datatype='table' name='[__tableau_internal_object_id__].[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]' role='measure' type='quantitative' />
+            <column-instance column='[ConferenceYear]' derivation='None' name='[none:ConferenceYear:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Data]' derivation='None' name='[none:Data:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[Exclusions (Conference Year,Data)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:ConferenceYear:ok]' />
+                <groupfilter function='level-members' level='[none:Data:nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:ConferenceYear:ok]' member='%null%' />
+                <groupfilter function='member' level='[none:Data:nk]' member='&quot;Hidden or Not Applicable&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[:Measure Names]</column>
+            <column>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[Exclusions (Conference Year,Data)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[__tableau_internal_object_id__].[cnt:openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067:qk]' scope='cols' value='Number of papers' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:Data:nk]' value='&#10;' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:Data:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:ConferenceYear:ok]</rows>
+        <cols>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[__tableau_internal_object_id__].[cnt:openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067:qk]</cols>
+      </table>
+      <simple-id uuid='{5CBC25D3-8F12-4B18-BE0E-D12F76AD61EE}' />
+    </worksheet>
+    <worksheet name='Availability of papers'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='openaccessvis-all-processed' name='federated.0qp22so1gmflfe10r6hei1lxv6hc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qp22so1gmflfe10r6hei1lxv6hc'>
+            <column aggregation='Sum' caption='Year' datatype='integer' name='[ConferenceYear]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Data]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='openaccessvis-all-processed.csv' datatype='integer' name='[__tableau_internal_object_id__].[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='openaccessvis-all-processed.csv' datatype='table' name='[__tableau_internal_object_id__].[openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067]' role='measure' type='quantitative' />
+            <column-instance column='[ConferenceYear]' derivation='None' name='[none:ConferenceYear:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Data]' derivation='None' name='[none:Data:nk]' pivot='key' type='nominal' />
+            <column-instance column='[openCategory]' derivation='None' name='[none:openCategory:nk]' pivot='key' type='nominal' />
+            <column caption='Open Category' datatype='string' name='[openCategory]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[Exclusions (Conference Year,Data)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:ConferenceYear:ok]' />
+                <groupfilter function='level-members' level='[none:Data:nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:ConferenceYear:ok]' member='%null%' />
+                <groupfilter function='member' level='[none:Data:nk]' member='&quot;Hidden or Not Applicable&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[:Measure Names]</column>
+            <column>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[Exclusions (Conference Year,Data)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[__tableau_internal_object_id__].[cnt:openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067:qk]' scope='cols' value='Number of papers' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:openCategory:nk]' value=''>
+              <formatted-text />
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:openCategory:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:ConferenceYear:ok]</rows>
+        <cols>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[__tableau_internal_object_id__].[cnt:openaccessvis-all-processed.csv_F921838358E147C7B79CFBD4B4041067:qk]</cols>
+      </table>
+      <simple-id uuid='{392FAD68-2381-4FC0-9E20-43BF054101E8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='71750' id='3' name='Availability of data' w='98400' x='800' y='27250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='26250' id='9' name='Availability of papers' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='10625' id='10' leg-item-order='reversed' name='Availability of papers' pane-specification-id='2' param='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:openCategory:nk]' type-v2='color' w='17600' x='82100' y='50375' />
+        <zone h='10625' id='8' leg-item-order='reversed' name='Availability of data' pane-specification-id='2' param='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:Data:nk]' type-v2='color' w='20200' x='79900' y='1750' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='11' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='202' h='26250' id='9' is-fixed='true' name='Availability of papers' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10625' id='10' leg-item-order='reversed' name='Availability of papers' pane-specification-id='2' param='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:openCategory:nk]' type-v2='color' w='17600' x='82100' y='50375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='71750' id='3' is-fixed='true' name='Availability of data' w='98400' x='800' y='27250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10625' id='8' leg-item-order='reversed' name='Availability of data' pane-specification-id='2' param='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:Data:nk]' type-v2='color' w='20200' x='79900' y='1750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FDC1B828-2A16-4D0D-BB4B-F9F2871E1816}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Availability of data'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:Data:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:ConferenceYear:qk]</field>
+            <field>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:Data:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{86E1D41C-92DD-471B-B95D-147EDA9A72C9}' />
+    </window>
+    <window class='worksheet' name='Availability of papers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:openCategory:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:ConferenceYear:qk]</field>
+            <field>[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:openCategory:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3AAE226A-AC49-420E-8A1B-EC687D52EF0A}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Availability of data'>
+          <highlight field='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:Data:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Availability of papers'>
+          <highlight field='[federated.0qp22so1gmflfe10r6hei1lxv6hc].[none:openCategory:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{3F732A14-011C-4BE9-95FB-1548A8A77CDF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='147' name='Availability of data' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='147' name='Availability of papers' width='192'>
+      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
+      UcQF/GyI0VIAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      x2NtcgA1PvzgYy5dOcNiKE6H28vIUH9zNVCZuXsHT3c/pXSUbKnO2fNnaHZj++DebQqlOr29
+      XvItrE8mEWUpHOdobwcbyQwdHW6i0XRTc1sp5blx+yFvXz7DfHCZSkOHXilSxczZ05PN1bjy
+      BqGlINmqiq7aXA2ASGiW7JYXp6VIqQIet4VYMoPHd4TBI127qvF0To747GQKZawWI8l0qak5
+      aesuUC2fpGdkEpOh+Y2M3Wano9tPo65jcmqCYjLTdI3Zu7fQmYwsL28yMTWJrl5pugZskU5t
+      EY1GMVocBLxutn54oWfodDr0eqjUWlsfT1cPbruF7FaVqckpSrHlpufWYnfR2+UFvRmb2UBP
+      Tw82Vwcdru8/S/+8GuVsjOVIkkw63XQNgL5AACOQTKWplzMsbRaYmpyiurX768iezonZoEdR
+      FOpb+abnpK0BMHn6yIVnMZrtTS8bCoegVsfltDBzf4mu/uavNT955g2mTkxw/OQwS/dnsDg9
+      TdcAO/5uJw6Hc/uwbyvffLWYzVgsFtwtrk8iGiGRTOCy27k/c5+uY2ebnttSPkMimSC2EWI9
+      nqemKFCrUm3izvFPa+TrFn777csMB/qbrgEQXg2TSMfp6e4Gg4VjfZ3cn7lPR+fuT4Y+nZOi
+      AhaLBbuv+d836QGEpsltUYSmSQCEpkkAhKa19TCo2F8fvfd/cfWfIRVZ5OKlS4//Y6NGPJXD
+      pKtTz6yzpPj5rQuniD4K4usfZisTx+joxGmqk8hXufnJv+IePsf5iQHWo3GGRkZYmH3A8MQJ
+      YqFlrJ4erOoWxYYFu1lHra6QiccZGDmOw3rw7w4iTfAh9umnH2M2msnkcjy9SqZeU+iyWPEe
+      7eDB7AYjZ99i+ct/Ia3rYajfw/LcMv/lz/8rn33yETVVh0EP7/74XaY/fg/f6QvMfPENVpeN
+      QlWBChgNddLxCA5fP41inItvXubz67Ncfee36e9u5ajbb5bsAh1iHo+XMycCFOoWnFYjVVWP
+      v6eHzu4ePJ5Ouvy9JELzjL3+Fj0dNkZHR5g8fQanzUKgrwe727v9YEOAuZmH9A900zA46fa5
+      SW6GcXf6CQQCjI6OMjA8Tl9vHyPDXcTj6X1c892TLYDYlcjyAu7AGM7tneYawYUQ402e4T9o
+      JABC02QXSGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoE
+      QGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBo
+      mgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoE
+      QGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBo
+      mgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoE
+      QGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBo
+      mgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBo2r8Duva6s6A14eoAAAAASUVO
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
