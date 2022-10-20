@@ -11,4 +11,3 @@ The data collected in OAVIS is incomplete, in part due to the difficulty of coll
 1. Combine all the OAVIS data files in `oavis-data` using Excel's Data→Get Data→Get Data From Folder functionality, as the columns vary. Save as `openaccessvis-all.xlsx` and `openaccessvis-all.csv`
 2. Run `oavis analysis.R` to generate `openaccessvis-all-processed.csv` and a bunch of images.
 3. Load in Tableau and edit to create `openaccessvis-all-processed.twb` and export `openaccessvis-all-processed.pdf`
-
